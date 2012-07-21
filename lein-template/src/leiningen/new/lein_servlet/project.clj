@@ -4,7 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :warn-on-reflection true
-  :plugins [[lein-servlet "0.2.0"]]
+  :plugins [[lein-servlet "0.2.1-SNAPSHOT"]]
   :dependencies [[org.clojure/clojure "1.4.0"]]
   :aot [{{name}}.servlet]
   :servlet {;; uncomment only either of the :deps entries below

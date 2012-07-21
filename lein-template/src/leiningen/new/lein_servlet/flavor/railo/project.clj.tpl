@@ -8,7 +8,6 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.getrailo/railo "3.3.1.000" :exclusions [[javax.servlet/servlet-api]] ]]
   :repositories {"railo-repo" "http://railo-repo.sourceforge.net/maven2"}
-  :aot [{{name}}.util.jclojure]
   :servlet {;; uncomment only either of :deps entries below
             ;; :deps    [[lein-servlet/adapter-jetty7  "0.2.0"]]
             ;; :deps    [[lein-servlet/adapter-jetty8  "0.2.0"]]
