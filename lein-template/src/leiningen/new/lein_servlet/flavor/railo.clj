@@ -21,11 +21,10 @@
                ["Railo.README.txt"                    (r "Railo.README.txt")]
                ["Railo.LICENSE.txt"                   (r "Railo.LICENSE.txt")]
                ["src/{{sanitized}}/core.clj"          (r "core.clj")]
+               ["src/{{sanitized}}/util/jclojure.clj" (r "jclojure.clj")]
                ["test/{{sanitized}}/core_test.clj"    (r "core_test.clj")]
                ["public/WEB-INF/web.xml"              (r "web.xml")]
-               ["public/Application.cfc"              (r "Application.cfc")]
                ["public/index.cfm"                    (r "index.cfm")]
-               ["public/lib/cfmljure.cfc"             (r "cfmljure.cfc")]
                "public/css"
                "public/js"
                "public/img"))))
